@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    height: 70vh;
+    width: 100%;
+    background-image: url("./imagens/banner-cats.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-color: #e2e2e2;
+}
+
+header{
+    background-color: #e2e2e2;
+}
+
+main{
+    width: 100%;
+    height: 30vh;
+    background-color: #e2e2e2;
+    color: #33110a;
+}
+
+.titulo{
+    font-size: 1.8vw;
+    padding: 3vh 0;
+    width: 100%;
+    color: #33110a;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-pic{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -10vh;
+}
+
+.perfil-pic img{
+    
+    border-radius: 50%;
+}
+
+.perfil-pic img:hover{
+    width: 25vw;
+}
+
+.about{
+    font-size: 2vw;
+    padding: 2vh 2vw 2vh 4vw;
+    color: #33110a;
+    font-weight: 500;
+}
+
+.formacao{
+    height: 55vh;
+    background-color: #e2e2e2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formacao_content{
+    width: 100%;
+    height: 40vh;
+    
+    display:flex;
+    justify-content: space-around;
+}
+
+.escola{
+    width: 15%;
+    background-color: #7d7574;
+    color: #e2e2e2;
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo_escola{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.logo_escola img{
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 1.5vh;
+}
+
+.texto_escola{
+    padding: 1vh;
+    height: 30vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.redes{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icones{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icones img{
+    width: 3vw;
+}
+
+.icones img:hover{
+    width: 4vw;
+}
